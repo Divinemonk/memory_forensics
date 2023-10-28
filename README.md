@@ -30,11 +30,14 @@
 - can be found on data store of the corresponding hypervisor & can be copied without shuting vm off
 - allows for virtually zero disturbance to the virtual machine, preserving it's forensic integrity
 
-
+<br>
+<hr>
 <br>
 
 ## [Eg.] examine `.vmem` memory sample
 > [download memory sample](https://github.com/Divinemonk/memory_forensics_with_volatility/releases/download/mem_sample/cridexmemdump.zip)
+
+<br>
 
 ### Basic commands 
 > to use
@@ -51,6 +54,7 @@
 |`volatility -f MEMORY_FILE.raw --profile=PROFILE dlllist`|List all of the DLLs in memory.|
 |`volatility -f MEMORY_FILE.raw --profile=PROFILE --pid=PID dlldump -D`|Dump the DLLs running in memory, where the PID is the process ID of the infected process|
 
+<br>
 
 ### Post actions 
 > afer dumping the infected dlls
