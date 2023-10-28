@@ -57,7 +57,7 @@
 <br>
 
 ### Post actions 
-> afer dumping the infected dlls
+> after dumping the infected dlls
 - we spoted & extracted malicious code from infected process (done with basic forensics)
 - now upload to code to [VirusTotal](https://www.virustotal.com/gui/home/upload) or [Hybrid Analysis](https://www.hybrid-analysis.com/) for checking any previous matches of malware
 
