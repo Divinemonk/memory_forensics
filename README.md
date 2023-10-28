@@ -34,9 +34,10 @@
 <br>
 
 ## [Eg.] examine `.vmem` memory sample
-> [download memory sample](cridexmemdump.zip)
+> [download memory sample](https://github.com/Divinemonk/memory_forensics_with_volatility/releases/download/mem_sample/cridexmemdump.zip)
 
-### Basic commands
+### Basic commands 
+> to use
 
 |command|details|
 |---|---|
@@ -51,7 +52,8 @@
 |`volatility -f MEMORY_FILE.raw --profile=PROFILE --pid=PID dlldump -D`|Dump the DLLs running in memory, where the PID is the process ID of the infected process|
 
 
-### Post actions
+### Post actions 
+> afer dumping the infected dlls
 - we spoted & extracted malicious code from infected process (done with basic forensics)
 - now upload to code to [VirusTotal](https://www.virustotal.com/gui/home/upload) or [Hybrid Analysis](https://www.hybrid-analysis.com/) for checking any previous matches of malware
 
