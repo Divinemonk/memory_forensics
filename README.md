@@ -33,7 +33,7 @@
 
 <br>
 
-## Examine `.vmem` (eg.)
+## [Eg.] examine `.vmem` memory sample
 > [download memory sample](cridexmemdump.zip)
 
 ### Basic commands
